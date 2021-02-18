@@ -1,0 +1,36 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.signInContainer{
+	background-color: #efefee;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.column {
+	background-color: #fff;
+	min-height: 300px;
+	max-height:100%;
+	width: 450px;
+	box-shadow: rgba(0,0,0,0.1) 0 1px 4px;
+}
+
+.column form {
+	display: flex;
+	flex-direction: column;
+}
+
+.columen form input[type="text"],
+.columen form input[type="email"],
+.columen form input[type="password"]{
+	font-size: 14px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 1px solid;
+}
